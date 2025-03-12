@@ -5,8 +5,9 @@ import 'package:http/http.dart';
 import '../dto/webtoon_dto.dart';
 
 class WebtoonModel {
-  final uri = Uri.parse("https://webtoon-crawler.nomadcoders.workers.dev");
+  final uri = Uri.parse("https://webtoon-crawler.nomadcoders.workers.dev/today");
 
+  //웹툰 리스트 가져오기
   Future<List<WebtoonDto>> getWebtoonList() async {
     Response response = await get(uri);
     

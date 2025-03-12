@@ -14,7 +14,9 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       home: Scaffold(
         appBar: AppBar(
+          centerTitle: true,
           title: const Text("오늘의 웹툰"
+              ,textAlign: TextAlign.center
               ,style: TextStyle(
                 color: Color.fromARGB(255, 64, 162, 64),
                 fontWeight: FontWeight.w900,
