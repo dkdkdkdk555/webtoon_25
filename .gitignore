@@ -138,3 +138,15 @@ android/settings.gradle
 linux/flutter/generated_plugins.cmake
 windows/flutter/generated_plugin_registrant.h
 windows/flutter/generated_plugins.cmake
+android/gradle.properties
+android/gradle/wrapper/gradle-wrapper.properties
+windows/flutter/generated_plugins.cmake
+windows/flutter/generated_plugin_registrant.h
+windows/flutter/generated_plugin_registrant.cc
+macos/Flutter/GeneratedPluginRegistrant.swift
+linux/flutter/generated_plugins.cmake
+linux/flutter/generated_plugin_registrant.h
+linux/flutter/generated_plugin_registrant.cc
+android/settings.gradle
+android/gradle/wrapper/gradle-wrapper.properties
+android/gradle.properties
