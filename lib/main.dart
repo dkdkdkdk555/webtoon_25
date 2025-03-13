@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:webtoon_25/view/webtoon_list.dart';
 
 void main() {
   runApp(const MyApp());
@@ -24,6 +25,7 @@ class MyApp extends StatelessWidget {
             ),
           backgroundColor: const Color(0xFFF1F0F7),
         ),
+        body: const WebtoonList()
       ),
     );
   }
