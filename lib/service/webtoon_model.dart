@@ -15,8 +15,8 @@ class WebtoonModel {
     if(response.statusCode != 200){
       throw('Fail to api');
     }
-    List<WebtoonDto> result = [];
-    List<dynamic> jsonList = jsonDecode(response.body);
+    List<WebtoonDto> result = []; // list.empty(); 는 초기화되고 값을 추가할 수 없음.
+    List<dynamic> jsonList = jsonDecode(response.body); // jsonDecode의 반환 타입은 dynamic으로 해줘야함
     List<Map<String, dynamic>> list = List<Map<String, dynamic>>.from(jsonList);
     for(Map<String,dynamic> map in list) {
       result.add(WebtoonDto.fromJson(map));

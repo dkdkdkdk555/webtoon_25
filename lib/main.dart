@@ -25,7 +25,7 @@ class MyApp extends StatelessWidget {
             ),
           backgroundColor: const Color(0xFFF1F0F7),
         ),
-        body: const WebtoonList()
+        body: const WebtoonList(),
       ),
     );
   }
